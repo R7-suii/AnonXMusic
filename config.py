@@ -14,7 +14,7 @@ API_HASH = getenv("7c7dbcb9e6654389d112b418e10583fa")
 BOT_TOKEN = getenv("6393794004:AAG9FuFGd8eyW_5WkXuCWKdX9GZUAdiZ5Vg")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://<username>:saib2005@cluster0.frouyxe.mongodb.net/?retryWrites=true&w=majority)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://<username>:saib2005@cluster0.frouyxe.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
@@ -43,12 +43,12 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", e1e2d7a1e20a4564a2d174b005585321)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", 45d90a8278974cbba83a8ff276e26d92)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "e1e2d7a1e20a4564a2d174b005585321")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "45d90a8278974cbba83a8ff276e26d92")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
