@@ -11,18 +11,18 @@ API_ID = int(getenv("26744258"))
 API_HASH = getenv("7c7dbcb9e6654389d112b418e10583fa")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("6393794004:AAG9FuFGd8eyW_5WkXuCWKdX9GZUAdiZ5Vg")
+BOT_TOKEN = getenv("6441626106:AAHvSs5DiyVFRxNNU1qfv6efzwZ-wXm1BF0")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://<username>:saib2005@cluster0.frouyxe.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Saib:saib2005@cluster0.1l0w1wa.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001724297590))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002022749851"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6696466266))
+OWNER_ID = int(getenv("OWNER_ID", "6696466266"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+L4GxvZSpd0VkNDU1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/holaien")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
